@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+    font-family: monospace;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+    padding-top: 10px;
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 60px;
+    z-index: 1000;
+    background: grey;
+    padding: 5px 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    padding-top: 50px;
+}
+
+.navbar a, .navbar a:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin: 0 5px;
+    padding: 0 15px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-decoration: none; 
+    color: #ffffff;
+    background: transparent;
+    box-sizing: border-box;
+}
+
