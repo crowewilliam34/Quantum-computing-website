@@ -1,0 +1,28 @@
+#Representation_Paragraph {
+    justify-content: left;
+    text-align: left;
+    font-size: 15px;
+    max-width: 700px;
+    display: block;
+    width: fit-content;
+    margin-left: 10px;
+}
+
+#Important_States_Table {
+    padding: 20px;
+    border: black solid 2px;
+    border-collapse: collapse;
+}
+
+#Important_States_Table th, #Important_States_Table td {
+    text-align: center;
+    border: black solid 2px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#Representation_Table_And_Paragraph_Bar {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="representationpage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Quantum Computer Science</title>
     </head>
 
     <body>
         <h1>Representing Qubits In Quantum Computer Science</h1>
-        <div class="navbar">
 
+        <div class="navbar">
+            <a href="index.html">Home Page</a>
             <a href="introduction.html">Introduction</a>
             <a href="representingQubits.html">Representing Qubits</a>
             <a href="visualisingQubits.html">Visualsing Qubits</a>
+        </div>
+        
+        <div id="Representation_Table_And_Paragraph_Bar">
+            <p id="Representation_Paragraph">Qubits are often represented using vectors in a 
+                two-dimensional complex vector space. The basis states of a qubit are typically 
+                denoted as |0⟩ and |1⟩, which correspond to the classical bit values 0 and 1, respectively.
+                <br><br>
+                A general state of a qubit can be expressed as a linear combination of these basis states:
+                |ψ⟩ = α|0⟩ + β|1⟩, where α and β are complex numbers known as probability amplitudes. 
+                The probabilities of measuring the qubit in the |0⟩ or |1⟩ state are given by the squares 
+                of the magnitudes of these amplitudes: P(0) = |α|^2 and P(1) = |β|^2, with the constraint 
+                that |α|^2 + |β|^2 = 1. 
+                <br><br>
+                This representation allows for the description of superposition and entanglement, which are 
+                fundamental concepts in quantum computing. Here are some important qubit states.
+            </p>
+
+            <table id="Important_States_Table">
+                <tr>
+                    <th>Important Qubit States</th>
+                    <th>Representation</th>
+                    <th>Probability Of 1</th>
+                    <th>Probability Of 0</th>
+                </tr>
+                <tr>
+                    <td>|0⟩</td>
+                    <td>1|0⟩ + 0|1⟩</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>|1⟩</td>
+                    <td>0|0⟩ + 1|1⟩</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>|+⟩</td>
+                    <td>1/√2|0⟩ + 1/√2|1⟩</td>
+                    <td>0.5</td>
+                    <td>0.5</td>
+                </tr>
+                <tr>
+                    <td>|-⟩</td>
+                    <td>1/√2|0⟩ - 1/√2|1⟩</td>
+                    <td>0.5</td>
+                    <td>0.5</td>
+                </tr>
+                <tr>
+                    <td>|i⟩</td>
+                    <td>1/√2|0⟩ + i/√2|1⟩</td>
+                    <td>0.5</td>
+                    <td>0.5</td>
+                </tr>
+                <tr>
+                    <td>|-i⟩</td>
+                    <td>1/√2|0⟩ - i/√2|1⟩</td>
+                    <td>0.5</td>
+                    <td>0.5</td>
+                </tr>
+
+            </table>
         </div>
     </body>
 </html>
